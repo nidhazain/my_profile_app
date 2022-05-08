@@ -19,8 +19,12 @@ void main() {
                ),
               ),
               CircleAvatar(
-                radius: 70,
-                backgroundImage: AssetImage('images/f.jpg'),
+                radius: 75,
+                backgroundColor: Colors.purple[200],
+                child: CircleAvatar(
+                  radius: 70,
+                  backgroundImage: AssetImage('images/f.jpg'),
+                ),
               ),
               Text(
                 'Nidha Zainab C',
